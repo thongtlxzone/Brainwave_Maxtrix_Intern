@@ -11,45 +11,8 @@ class BankAccount{
     public BankAccount() {
 
     }
-
     public String getFullname() {
         return fullname;
-    }
-
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public int getAccountNo() {
-        return accountNo;
-    }
-
-    public float getBalance() {
-        return balance;
-    }
-
-    public void setBalance(float balance) {
-        this.balance = balance;
-    }
-
-    public List<String> getTransactionsHistory() {
-        return transactionsHistory;
     }
     //Method
     public void register(){
